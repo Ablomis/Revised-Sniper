@@ -1,0 +1,22 @@
+return PlaceObj('ModDef', {
+	'title', "Revised Sniper",
+	'description', "[b]WHY[/b]: Sniper is BY far the deadliest class on the field with little drawbacks.\n\n[b]WHAT[/b]: the mod introduces several limitations which should narrow down the sniper operating wndow to make it more niche.\n\n[b]HOW[/b]\n[list]\n    [*]If sniper is not prone, they get CTH penalty (Not for AI, cuz its dumb)\n	[*]All optical scopes (COG, 5x, 10x) have minimal range (5,10 and 15 tiles respectively) and will add CTH penalty of -5 per tile below min range\n	[*]There is mod setting that removes scope effects for AI \n	\nCompatibility: I designed this so that it does not introduce any weapon changes and will not compete with weapon mods.\n\nMod can be configured in options.",
+	'image', "Mod/WNPQy4L/JA3Revised-Sniper.png",
+	'last_changes', "compatibility check",
+	'id', "WNPQy4L",
+	'author', "Ablomis",
+	'version', 50,
+	'lua_revision', 233360,
+	'saved_with_revision', 340446,
+	'code', {
+		"Code/CTH.lua",
+		"Code/Config.lua",
+		"Code/ModOptions.lua",
+		"Code/WeaponComponentEffect.lua",
+		"Code/WeaponComponents.lua",
+	},
+	'has_options', true,
+	'saved', 1693461628,
+	'code_hash', 984449663441911430,
+	'steam_id', "3024399125",
+})
